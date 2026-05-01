@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice">
+    <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2d3a35"/>
+            <stop offset="100%" stop-color="#1a2520"/>
+        </linearGradient>
+        <linearGradient id="mountain" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#3d5048"/>
+            <stop offset="100%" stop-color="#1f2a25"/>
+        </linearGradient>
+        <linearGradient id="house" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#d4b076"/>
+            <stop offset="100%" stop-color="#8a6f44"/>
+        </linearGradient>
+    </defs>
+    <rect width="400" height="500" fill="url(#sky)"/>
+    <circle cx="320" cy="80" r="35" fill="#e8d5a3" opacity="0.4"/>
+    <path d="M0,300 L80,200 L160,260 L240,180 L320,250 L400,220 L400,500 L0,500 Z" fill="url(#mountain)"/>
+    <path d="M0,360 L100,290 L180,330 L280,270 L360,310 L400,290 L400,500 L0,500 Z" fill="#1a2520" opacity="0.6"/>
+    <g transform="translate(140,330)">
+        <path d="M0,80 L60,30 L120,80 L120,160 L0,160 Z" fill="url(#house)"/>
+        <path d="M-10,80 L60,20 L130,80 L120,80 L60,30 L0,80 Z" fill="#3d2818"/>
+        <rect x="40" y="100" width="20" height="40" fill="#2a1f15"/>
+        <rect x="75" y="95" width="25" height="25" fill="#f4e4b8" opacity="0.9"/>
+        <rect x="20" y="95" width="15" height="20" fill="#f4e4b8" opacity="0.7"/>
+    </g>
+    <g opacity="0.7">
+        <path d="M30,400 L40,360 L50,400 Z M45,395 L55,355 L65,395 Z M70,405 L80,365 L90,405 Z" fill="#1a2520"/>
+        <path d="M310,395 L320,355 L330,395 Z M340,400 L350,360 L360,400 Z M370,405 L380,365 L390,405 Z" fill="#1a2520"/>
+    </g>
+</svg>

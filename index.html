@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="uk" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мольфар — Котеджі в Карпатах | Інвестиція з дохідністю 26%</title>
+    <meta name="description" content="Мольфар — котеджний комплекс у серці Карпат. Інвестиція від 1.8 млн ₴, дохідність до 26% річних, окупність 4 роки.">
+    <meta property="og:title" content="Мольфар — Котеджі в Карпатах">
+    <meta property="og:description" content="Інвестуйте в котеджний комплекс. Дохідність до 26% річних.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#f5efe4">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <div class="loader-logo">М</div>
+            <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-mark">М</span>
+                <span class="logo-text">Мольфар</span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#concept" class="nav-link">Про проект</a>
+                <a href="#investment" class="nav-link">Інвестиція</a>
+                <a href="#cottage" class="nav-link">Котеджі</a>
+                <a href="#gallery" class="nav-link">Галерея</a>
+                <a href="#infrastructure" class="nav-link">Інфраструктура</a>
+                <a href="#location" class="nav-link">Локація</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#cta" class="btn btn-ghost btn-sm">Заявка</a>
+                <button class="burger" id="burger" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-media">
+                <!-- Замініть на assets/media/hero-bg.mp4 коли додасте власне відео -->
+                <video autoplay muted loop playsinline class="hero-video"
+                       poster="assets/media/hero-poster.jpg"
+                       onerror="this.style.display='none'">
+                    <source src="assets/media/hero-bg.webm" type="video/webm">
+                    <source src="assets/media/hero-bg.mp4" type="video/mp4">
+                    <source src="https://assets.mixkit.co/videos/preview/mixkit-foggy-forest-with-tall-trees-2663-large.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
+                <div class="hero-grain"></div>
+            </div>
+
+            <div class="container hero-container">
+                <div class="hero-eyebrow">
+                    <span class="eyebrow-line"></span>
+                    <span>Котеджний комплекс • Карпати</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="reveal-line"><span>Твій простір</span></span>
+                    <span class="reveal-line"><span>там, де закінчується</span></span>
+                    <span class="reveal-line"><span><em>метушня</em></span></span>
+                </h1>
+                <p class="hero-subtitle">
+                    Інвестуйте в котедж у Карпатах і отримуйте до <strong>26%</strong> річних.
+                    <br>Управління — на нас. Відпочинок — для вас.
+                </p>
+                <div class="hero-actions">
+                    <a href="#cta" class="btn btn-primary">
+                        <span>Отримати пропозицію</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-scroll">
+                <span>Прокрутіть</span>
+                <div class="hero-scroll-line"></div>
+            </div>
+
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-value" data-counter="26" data-suffix="%">0</span>
+                    <span class="hero-stat-label">Дохідність</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-value" data-counter="4" data-suffix=" р.">0</span>
+                    <span class="hero-stat-label">Окупність</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-value" data-counter="124" data-suffix=' м<sup>2</sup>'>0</span>
+                    <span class="hero-stat-label">Площа котеджу</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- MARQUEE -->
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>Тиша</span><span class="marquee-dot"></span>
+                <span>Природа</span><span class="marquee-dot"></span>
+                <span>Дохід</span><span class="marquee-dot"></span>
+                <span>Свобода</span><span class="marquee-dot"></span>
+                <span>Карпати</span><span class="marquee-dot"></span>
+                <span>Інвестиція</span><span class="marquee-dot"></span>
+                <span>Тиша</span><span class="marquee-dot"></span>
+                <span>Природа</span><span class="marquee-dot"></span>
+                <span>Дохід</span><span class="marquee-dot"></span>
+                <span>Свобода</span><span class="marquee-dot"></span>
+                <span>Карпати</span><span class="marquee-dot"></span>
+                <span>Інвестиція</span><span class="marquee-dot"></span>
+            </div>
+        </div>
+
+        <!-- CONCEPT -->
+        <section class="concept" id="concept">
+            <div class="container">
+                <div class="concept-grid">
+                    <div class="concept-text-col">
+                        <div class="section-eyebrow">
+                            <span class="eyebrow-line"></span>
+                            <span>01 — Концепція</span>
+                        </div>
+                        <h2 class="section-title">
+                            Це більше<br>ніж просто <em>котеджі</em>
+                        </h2>
+                        <p class="lead">
+                            <strong>Мольфар</strong> — простір для тих, хто цінує тишу, природу та приватність. І водночас — інструмент стабільного пасивного доходу.
+                        </p>
+                        <p class="muted">
+                            Ми створюємо комплекс на 124 м² ділянок у точці росту Карпат — Сенечів. Тут поєднується автентика гірської культури з архітектурою сучасного шале та повним сервісом управління.
+                        </p>
+                        <div class="concept-bullets">
+                            <div class="bullet">
+                                <span class="bullet-num">01</span>
+                                <p>Архітектура у стилі alpine-modern</p>
+                            </div>
+                            <div class="bullet">
+                                <span class="bullet-num">02</span>
+                                <p>Повний сервіс управління та оренди</p>
+                            </div>
+                            <div class="bullet">
+                                <span class="bullet-num">03</span>
+                                <p>Прозора фінансова модель</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="concept-visual">
+                        <div class="concept-card">
+                            <!-- Покладіть concept.jpg в assets/media/ — автоматично замінить плейсхолдер -->
+                            <img src="assets/media/concept.webp" alt="Концепція Мольфар"
+                                 class="media-img" loading="lazy"
+                                 onerror="this.onerror=null;this.src='assets/media/concept-placeholder.svg'">
+                            <div class="concept-card-label">
+                                <span class="muted">Концепт-візуалізація</span>
+                                <strong>Шале • Cенечів</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INVESTMENT -->
+        <section class="investment" id="investment">
+            <div class="container">
+                <div class="section-head">
+                    <div class="section-eyebrow">
+                        <span class="eyebrow-line"></span>
+                        <span>02 — Інвестиція</span>
+                    </div>
+                    <h2 class="section-title section-title-center">
+                        Цифри, які <em>працюють</em><br>замість вас
+                    </h2>
+                </div>
+
+                <div class="investment-grid">
+                    <div class="investment-card">
+                        <div class="investment-card-top">
+                            <span class="investment-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 100 7h5a3.5 3.5 0 110 7H6"/></svg>
+                            </span>
+                            <span class="investment-label">Дохідність</span>
+                        </div>
+                        <div class="investment-value"><span class="counter" data-counter="26">0</span>%</div>
+                        <p class="investment-desc">До 26% річних на вкладений капітал</p>
+                    </div>
+                    <div class="investment-card">
+                        <div class="investment-card-top">
+                            <span class="investment-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            </span>
+                            <span class="investment-label">Окупність</span>
+                        </div>
+                        <div class="investment-value"><span class="counter" data-counter="4">0</span> р.</div>
+                        <p class="investment-desc">Повернення вкладень за 4 роки</p>
+                    </div>
+                    <div class="investment-card">
+                        <div class="investment-card-top">
+                            <span class="investment-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 21V9l9-7 9 7v12M9 21v-8h6v8"/></svg>
+                            </span>
+                            <span class="investment-label">Інвестиція</span>
+                        </div>
+                        <div class="investment-value"><span class="counter" data-counter="1.8" data-decimals="1">0</span> млн</div>
+                        <p class="investment-desc">Стартова сума інвестиції в ₴</p>
+                    </div>
+                    <div class="investment-card">
+                        <div class="investment-card-top">
+                            <span class="investment-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 17l6-6 4 4 8-8M14 7h7v7"/></svg>
+                            </span>
+                            <span class="investment-label">IRR</span>
+                        </div>
+                        <div class="investment-value"><span class="counter" data-counter="33">0</span>%</div>
+                        <p class="investment-desc">Внутрішня норма доходності</p>
+                    </div>
+                </div>
+
+                <!-- Calculator -->
+                <div class="calculator">
+                    <div class="calculator-head">
+                        <h3>Калькулятор доходу</h3>
+                        <p class="muted">Орієнтовний прогноз на основі середньої завантаженості</p>
+                    </div>
+                    <div class="calculator-body">
+                        <div class="calc-control">
+                            <label>Сума інвестиції</label>
+                            <div class="calc-slider-wrap">
+                                <input type="range" id="calcAmount" min="1800000" max="10000000" step="100000" value="1800000">
+                                <div class="calc-slider-value" id="calcAmountValue">1 800 000 ₴</div>
+                            </div>
+                            <div class="calc-range-labels">
+                                <span>1.8 млн ₴</span>
+                                <span>10 млн ₴</span>
+                            </div>
+                        </div>
+                        <div class="calc-control">
+                            <label>Період</label>
+                            <div class="calc-tabs">
+                                <button class="calc-tab active" data-years="1">1 рік</button>
+                                <button class="calc-tab" data-years="3">3 роки</button>
+                                <button class="calc-tab" data-years="5">5 років</button>
+                                <button class="calc-tab" data-years="10">10 років</button>
+                            </div>
+                        </div>
+                        <div class="calc-results">
+                            <div class="calc-result">
+                                <span class="calc-result-label">Місячний дохід</span>
+                                <span class="calc-result-value" id="calcMonthly">— ₴</span>
+                            </div>
+                            <div class="calc-result calc-result--accent">
+                                <span class="calc-result-label">Загальний дохід</span>
+                                <span class="calc-result-value" id="calcTotal">— ₴</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COTTAGE -->
+        <section class="cottage" id="cottage">
+            <div class="container">
+                <div class="cottage-grid">
+                    <div class="cottage-visual">
+                        <div class="cottage-image">
+                            <!-- Покладіть cottage.jpg в assets/media/ — автоматично замінить плейсхолдер -->
+                            <img src="assets/media/cottage.webp" alt="Котедж Мольфар"
+                                 class="media-img" loading="lazy"
+                                 onerror="this.onerror=null;this.src='assets/media/cottage-placeholder.svg'">
+                        </div>
+                    </div>
+                    <div class="cottage-content">
+                        <div class="section-eyebrow">
+                            <span class="eyebrow-line"></span>
+                            <span>03 — Котедж</span>
+                        </div>
+                        <h2 class="section-title">
+                            Продумано<br>до останньої <em>деталі</em>
+                        </h2>
+                        <p class="lead">
+                            Двоповерхові шале з натурального дерева. Великі панорамні вікна. Тераса з власним чаном і видом на гори.
+                        </p>
+                        <div class="cottage-specs">
+                            <div class="spec">
+                                <span class="spec-value">124 м<sup>2</sup></span>
+                                <span class="spec-label">Загальна площа</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-value">2</span>
+                                <span class="spec-label">Поверхи</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-value">3</span>
+                                <span class="spec-label">Спальні</span>
+                            </div>
+                            <div class="spec">
+                                <span class="spec-value">6</span>
+                                <span class="spec-label">Гостей</span>
+                            </div>
+                        </div>
+                        <ul class="cottage-features">
+                            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>Власний чан з дровами</li>
+                            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>Тераса з зоною барбекю</li>
+                            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>Камін у вітальні</li>
+                            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>Повністю мебльовано</li>
+                            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>Smart-home система</li>
+                            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></svg>Парковка біля будинку</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALLERY -->
+        <section class="gallery" id="gallery">
+            <div class="container">
+                <div class="section-head section-head-center">
+                    <div class="section-eyebrow center">
+                        <span class="eyebrow-line"></span>
+                        <span>Галерея</span>
+                        <span class="eyebrow-line"></span>
+                    </div>
+                    <h2 class="section-title section-title-center">
+                        Подивіться<br>як це <em>виглядає</em>
+                    </h2>
+                    <p class="lead lead-center">
+                        Концепт-візуалізації котеджного комплексу та оточуючої природи
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+                    <figure class="gallery-item gallery-item--tall">
+                        <img src="assets/media/gallery-1.webp" alt="Шале Мольфар" loading="lazy"
+                             onerror="this.onerror=null;this.src='assets/media/gallery-1.svg'">
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="assets/media/gallery-2.webp" alt="Карпатський краєвид" loading="lazy"
+                             onerror="this.onerror=null;this.src='assets/media/gallery-2.svg'">
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="assets/media/gallery-3.webp" alt="Чан з видом на гори" loading="lazy"
+                             onerror="this.onerror=null;this.src='assets/media/gallery-3.svg'">
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="assets/media/gallery-4.webp" alt="Гірський пейзаж" loading="lazy"
+                             onerror="this.onerror=null;this.src='assets/media/gallery-4.svg'">
+                    </figure>
+                    <figure class="gallery-item gallery-item--tall">
+                        <img src="assets/media/gallery-5.webp" alt="Шале вночі" loading="lazy"
+                             onerror="this.onerror=null;this.src='assets/media/gallery-5.svg'">
+                    </figure>
+                    <figure class="gallery-item">
+                        <img src="assets/media/gallery-6.webp" alt="Чан з вогнем" loading="lazy"
+                             onerror="this.onerror=null;this.src='assets/media/gallery-6.svg'">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- INFRASTRUCTURE -->
+        <section class="infrastructure" id="infrastructure">
+            <div class="container">
+                <div class="section-head section-head-center">
+                    <div class="section-eyebrow center">
+                        <span class="eyebrow-line"></span>
+                        <span>04 — Інфраструктура</span>
+                        <span class="eyebrow-line"></span>
+                    </div>
+                    <h2 class="section-title section-title-center">
+                        Все для відпочинку —<br>в <em>одному місці</em>
+                    </h2>
+                </div>
+
+                <div class="infra-feature">
+                    <video src="assets/media/04.mp4" autoplay muted loop playsinline></video>
+                    <div class="infra-feature-overlay"></div>
+                    <div class="infra-feature-caption">
+                        <span class="eyebrow">Атмосфера комплексу</span>
+                        <h3>Простір, де природа<br>зустрічається з комфортом</h3>
+                    </div>
+                </div>
+
+                <div class="infra-grid">
+                    <article class="infra-card" data-bg="assets/media/infra-spa.webp">
+                        <div class="infra-card-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M8 32c0 6 7 10 16 10s16-4 16-10M8 32V20c0-3 4-5 16-5s16 2 16 5v12"/>
+                                <path d="M16 20c0-4 4-8 8-8s8 4 8 8"/>
+                                <path d="M20 26v4M28 26v4"/>
+                            </svg>
+                        </div>
+                        <h3>SPA-комплекс</h3>
+                        <p>Сауна, парна, басейн з підігрівом, зона релаксу</p>
+                    </article>
+                    <article class="infra-card" data-bg="assets/media/infra-lake.webp">
+                        <div class="infra-card-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M4 32c4-3 8-3 12 0s8 3 12 0 8-3 12 0 4 3 4 3"/>
+                                <path d="M4 24c4-3 8-3 12 0s8 3 12 0 8-3 12 0 4 3 4 3"/>
+                                <path d="M4 40c4-3 8-3 12 0s8 3 12 0 8-3 12 0 4 3 4 3"/>
+                            </svg>
+                        </div>
+                        <h3>Озеро з пірсом</h3>
+                        <p>Чиста гірська вода, причал, риболовля та човни</p>
+                    </article>
+                    <article class="infra-card" data-bg="assets/media/infra-restaurant.webp">
+                        <div class="infra-card-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M16 4v16M16 4c-4 0-8 2-8 6v6h16v-6c0-4-4-6-8-6z"/>
+                                <path d="M32 4l4 12-4 4-4-4 4-12zM32 20v24"/>
+                                <path d="M16 20v24"/>
+                            </svg>
+                        </div>
+                        <h3>Ресторан</h3>
+                        <p>Авторська кухня з локальних продуктів Карпат</p>
+                    </article>
+                    <article class="infra-card" data-bg="assets/media/infra-activities.webp">
+                        <div class="infra-card-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <circle cx="24" cy="14" r="6"/>
+                                <path d="M16 44v-8l-4-4 6-12 6 6 6-6 6 12-4 4v8"/>
+                            </svg>
+                        </div>
+                        <h3>Активності</h3>
+                        <p>Хайкінг, велотуризм, верхова їзда, лижі взимку</p>
+                    </article>
+                    <article class="infra-card" data-bg="assets/media/infra-kids.webp">
+                        <div class="infra-card-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <path d="M24 4l8 8-8 8-8-8 8-8z"/>
+                                <path d="M24 28v16M16 36h16"/>
+                                <circle cx="24" cy="20" r="2"/>
+                            </svg>
+                        </div>
+                        <h3>Дитяча зона</h3>
+                        <p>Майданчик, аніматори, безпечна територія для дітей</p>
+                    </article>
+                    <article class="infra-card" data-bg="assets/media/infra-security.webp">
+                        <div class="infra-card-icon">
+                            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.2">
+                                <rect x="8" y="20" width="32" height="20" rx="2"/>
+                                <path d="M16 20V12c0-4 4-8 8-8s8 4 8 8v8"/>
+                                <circle cx="24" cy="30" r="3"/>
+                            </svg>
+                        </div>
+                        <h3>Безпека 24/7</h3>
+                        <p>Закрита територія, охорона, відеоспостереження</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOCATION -->
+        <section class="location" id="location">
+            <div class="container">
+                <div class="location-grid">
+                    <div class="location-content">
+                        <div class="section-eyebrow">
+                            <span class="eyebrow-line"></span>
+                            <span>05 — Локація</span>
+                        </div>
+                        <h2 class="section-title">
+                            <em>Сенечів</em> —<br>точка росту Карпат
+                        </h2>
+                        <p class="lead">
+                            Тиха гірська долина в Івано-Франківській області. Поруч — гірськолижні курорти, мінеральні джерела, ще не перенасичена туристами природа.
+                        </p>
+                        <div class="location-stats">
+                            <div class="loc-stat">
+                                <span class="loc-stat-value">5 км</span>
+                                <span class="loc-stat-label">До курорту<br>"Захар Беркут"</span>
+                            </div>
+                            <div class="loc-stat">
+                                <span class="loc-stat-value">230 км</span>
+                                <span class="loc-stat-label">До Львова</span>
+                            </div>
+                            <div class="loc-stat">
+                                <span class="loc-stat-value">100 км</span>
+                                <span class="loc-stat-label">До кордону<br>з ЄС</span>
+                            </div>
+                            <div class="loc-stat">
+                                <span class="loc-stat-value">700 м</span>
+                                <span class="loc-stat-label">Висота<br>над рівнем моря</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location-map">
+                        <svg class="map-svg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <radialGradient id="mapBg">
+                                    <stop offset="0%" stop-color="#2a3530"/>
+                                    <stop offset="100%" stop-color="#0a0d0b"/>
+                                </radialGradient>
+                            </defs>
+                            <rect width="500" height="500" fill="url(#mapBg)"/>
+                            <g stroke="#3d4a42" stroke-width="0.5" fill="none" opacity="0.4">
+                                <path d="M0,100 Q150,80 250,120 T500,140"/>
+                                <path d="M0,200 Q150,180 250,220 T500,200"/>
+                                <path d="M0,300 Q150,280 250,320 T500,300"/>
+                                <path d="M0,400 Q150,380 250,420 T500,400"/>
+                                <path d="M100,0 Q120,150 100,250 T120,500"/>
+                                <path d="M250,0 Q230,150 250,250 T230,500"/>
+                                <path d="M400,0 Q420,150 400,250 T420,500"/>
+                            </g>
+                            <g fill="#3d4a42" opacity="0.5">
+                                <path d="M50,150 L80,100 L110,150 Z"/>
+                                <path d="M150,180 L200,120 L250,180 Z"/>
+                                <path d="M300,160 L350,100 L400,160 Z"/>
+                                <path d="M80,300 L130,250 L180,300 Z"/>
+                                <path d="M250,320 L300,260 L350,320 Z"/>
+                                <path d="M380,290 L430,240 L480,290 Z"/>
+                            </g>
+                            <g transform="translate(250,250)">
+                                <circle r="40" fill="#c9a062" opacity="0.1"/>
+                                <circle r="25" fill="#c9a062" opacity="0.2"/>
+                                <circle r="12" fill="#c9a062"/>
+                                <circle r="6" fill="#1a1a1a"/>
+                                <circle r="3" fill="#c9a062"/>
+                                <text y="-25" text-anchor="middle" fill="#c9a062" font-family="Cormorant Garamond" font-size="18" font-style="italic">Мольфар</text>
+                                <text y="40" text-anchor="middle" fill="#888" font-family="Manrope" font-size="10" letter-spacing="2">СЕНЕЧІВ</text>
+                            </g>
+                            <g font-family="Manrope" font-size="9" fill="#6a7065" letter-spacing="1.5">
+                                <text x="100" y="430">ЛЬВІВ</text>
+                                <circle cx="80" cy="425" r="2" fill="#6a7065"/>
+                                <text x="400" y="120">ЯРЕМЧЕ</text>
+                                <circle cx="430" cy="115" r="2" fill="#6a7065"/>
+                                <text x="120" y="100">СКОЛЕ</text>
+                                <circle cx="155" cy="95" r="2" fill="#6a7065"/>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROFIT CHART -->
+        <section class="profit" id="profit">
+            <div class="container">
+                <div class="section-head section-head-center">
+                    <div class="section-eyebrow center">
+                        <span class="eyebrow-line"></span>
+                        <span>06 — Дохід</span>
+                        <span class="eyebrow-line"></span>
+                    </div>
+                    <h2 class="section-title section-title-center">
+                        Прогнозована модель<br><em>завантаженості</em>
+                    </h2>
+                    <p class="lead lead-center">
+                        Стабільний потік гостей протягом року з піками в зимовий і літній сезон
+                    </p>
+                </div>
+
+                <div class="chart-wrap">
+                    <div class="chart-grid">
+                        <span>100%</span>
+                        <span>75%</span>
+                        <span>50%</span>
+                        <span>25%</span>
+                        <span>0%</span>
+                    </div>
+                    <div class="profit-chart">
+                        <div class="profit-bar" style="--height: 70%"><span class="profit-value">70%</span><span class="profit-month">Січ</span></div>
+                        <div class="profit-bar" style="--height: 65%"><span class="profit-value">65%</span><span class="profit-month">Лют</span></div>
+                        <div class="profit-bar" style="--height: 55%"><span class="profit-value">55%</span><span class="profit-month">Бер</span></div>
+                        <div class="profit-bar" style="--height: 60%"><span class="profit-value">60%</span><span class="profit-month">Квіт</span></div>
+                        <div class="profit-bar" style="--height: 70%"><span class="profit-value">70%</span><span class="profit-month">Трав</span></div>
+                        <div class="profit-bar" style="--height: 75%"><span class="profit-value">75%</span><span class="profit-month">Черв</span></div>
+                        <div class="profit-bar peak" style="--height: 90%"><span class="profit-value">90%</span><span class="profit-month">Лип</span></div>
+                        <div class="profit-bar peak" style="--height: 90%"><span class="profit-value">90%</span><span class="profit-month">Серп</span></div>
+                        <div class="profit-bar" style="--height: 70%"><span class="profit-value">70%</span><span class="profit-month">Вер</span></div>
+                        <div class="profit-bar" style="--height: 60%"><span class="profit-value">60%</span><span class="profit-month">Жов</span></div>
+                        <div class="profit-bar" style="--height: 50%"><span class="profit-value">50%</span><span class="profit-month">Лист</span></div>
+                        <div class="profit-bar peak" style="--height: 85%"><span class="profit-value">85%</span><span class="profit-month">Груд</span></div>
+                    </div>
+                </div>
+
+                <div class="chart-legend">
+                    <div class="legend-item"><span class="legend-dot legend-dot--peak"></span>Піковий сезон</div>
+                    <div class="legend-item"><span class="legend-dot"></span>Стандартний сезон</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW IT WORKS -->
+        <section class="how" id="how">
+            <div class="container">
+                <div class="section-head section-head-center">
+                    <div class="section-eyebrow center">
+                        <span class="eyebrow-line"></span>
+                        <span>07 — Як це працює</span>
+                        <span class="eyebrow-line"></span>
+                    </div>
+                    <h2 class="section-title section-title-center">
+                        Все <em>просто</em>
+                    </h2>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-num">01</div>
+                        <h3>Інвестуєте</h3>
+                        <p>Обираєте котедж та оформлюєте угоду. Все прозоро та юридично захищено.</p>
+                    </div>
+                    <div class="step-arrow">
+                        <svg viewBox="0 0 60 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M2 12h54M48 4l10 8-10 8"/></svg>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">02</div>
+                        <h3>Ми керуємо</h3>
+                        <p>Беремо на себе весь сервіс — оренду, обслуговування, маркетинг та клінінг.</p>
+                    </div>
+                    <div class="step-arrow">
+                        <svg viewBox="0 0 60 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M2 12h54M48 4l10 8-10 8"/></svg>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">03</div>
+                        <h3>Ви отримуєте</h3>
+                        <p>Стабільний пасивний дохід щомісяця та право на безкоштовний відпочинок.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <div class="faq-grid">
+                    <div class="faq-side">
+                        <div class="section-eyebrow">
+                            <span class="eyebrow-line"></span>
+                            <span>08 — Питання</span>
+                        </div>
+                        <h2 class="section-title">
+                            Маєте<br><em>запитання?</em>
+                        </h2>
+                        <p class="muted">Зібрали найчастіші. Якщо не знайшли відповідь — залиште заявку, ми зв'яжемося.</p>
+                        <a href="#cta" class="btn btn-outline" style="margin-top:30px">Запитати особисто</a>
+                    </div>
+                    <div class="faq-list">
+                        <details class="faq-item" open>
+                            <summary>
+                                <span>Як юридично оформлюється інвестиція?</span>
+                                <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6"/></svg></span>
+                            </summary>
+                            <div class="faq-answer">
+                                <p>Угода передбачає повне право власності на котедж з реєстрацією в державному реєстрі. Ви отримуєте всі правовстановлюючі документи та можете передати об'єкт у спадщину.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>
+                                <span>Чи можу я сам користуватися котеджем?</span>
+                                <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6"/></svg></span>
+                            </summary>
+                            <div class="faq-answer">
+                                <p>Так. Власнику доступно до 30 днів безкоштовного перебування на рік (поза піковим сезоном). Можна приїхати самому або запросити друзів та родину.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>
+                                <span>Хто відповідає за управління та оренду?</span>
+                                <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6"/></svg></span>
+                            </summary>
+                            <div class="faq-answer">
+                                <p>Управляюча компанія Мольфар повністю бере на себе пошук гостей, прийом, прибирання, технічне обслуговування та маркетинг. Ви отримуєте звіт щомісяця.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>
+                                <span>Які гарантії дохідності?</span>
+                                <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6"/></svg></span>
+                            </summary>
+                            <div class="faq-answer">
+                                <p>Прогноз 26% базується на середній завантаженості 70% та діючих цінах оренди в регіоні. У договорі прописана мінімальна гарантована дохідність.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>
+                                <span>Коли почнеться будівництво?</span>
+                                <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6"/></svg></span>
+                            </summary>
+                            <div class="faq-answer">
+                                <p>Перша черга — 2026 рік. Введення в експлуатацію — 2027 рік. Інвестори ранніх черг отримують найкращі умови та локації.</p>
+                            </div>
+                        </details>
+                        <details class="faq-item">
+                            <summary>
+                                <span>Чи можна продати котедж пізніше?</span>
+                                <span class="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6"/></svg></span>
+                            </summary>
+                            <div class="faq-answer">
+                                <p>Так, без обмежень. Об'єкт у Карпатах — ліквідний актив, який зростає в ціні разом з розвитком регіону.</p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta" id="cta">
+            <div class="cta-bg"></div>
+            <div class="container">
+                <div class="cta-inner">
+                    <div class="section-eyebrow center">
+                        <span class="eyebrow-line"></span>
+                        <span>Залишити заявку</span>
+                        <span class="eyebrow-line"></span>
+                    </div>
+                    <h2 class="section-title section-title-center">
+                        Отримайте повну<br><em>інвестпропозицію</em>
+                    </h2>
+                    <p class="lead lead-center">
+                        Залиште контакти — надішлемо детальний фінансовий план, плани котеджу та умови входу в проект
+                    </p>
+                    <form class="cta-form" id="ctaForm">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="name">Ваше ім'я</label>
+                                <input type="text" id="name" name="name" placeholder="Іван" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="phone">Телефон</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+38 (0XX) XXX-XX-XX" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Надіслати заявку</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                        </button>
+                        <p class="form-note">Натискаючи, ви погоджуєтесь з обробкою персональних даних</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-mark">М</span>
+                        <span class="logo-text">Мольфар</span>
+                    </a>
+                    <p class="muted">Котеджний комплекс<br>у серці Карпат</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Навігація</h4>
+                    <a href="#concept">Концепція</a>
+                    <a href="#investment">Інвестиція</a>
+                    <a href="#cottage">Котеджі</a>
+                    <a href="#location">Локація</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакти</h4>
+                    <a href="mailto:molfar_cottage@ukr.net">molfar_cottage@ukr.net</a>
+                    <a href="tel:+380000000000">+38 (0XX) XXX-XX-XX</a>
+                    <a href="https://instagram.com/molfar_cottage_" target="_blank">@molfar_cottage_</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Соцмережі</h4>
+                    <div class="socials">
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Telegram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 2L2 11l7 3 3 7 10-19zM9 14l5 4"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="muted">© 2026 Мольфар. Всі права захищені.</p>
+                <p class="muted">Дизайн та розробка з любов'ю до Карпат</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sticky mobile CTA -->
+    <a href="#cta" class="sticky-cta">
+        <span>Заявка</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+
+    <script src="https://unpkg.com/@studio-freight/lenis"></script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

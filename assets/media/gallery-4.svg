@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
+    <defs>
+        <linearGradient id="g4bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#1a2a22"/>
+            <stop offset="100%" stop-color="#0a1410"/>
+        </linearGradient>
+    </defs>
+    <rect width="600" height="800" fill="url(#g4bg)"/>
+    <g opacity="0.5">
+        <path d="M0,300 L100,200 L200,260 L300,160 L400,230 L500,180 L600,210 L600,800 L0,800 Z" fill="#2a3d33"/>
+        <path d="M0,420 L120,340 L240,390 L360,310 L480,360 L600,330 L600,800 L0,800 Z" fill="#1a241f"/>
+    </g>
+    <g opacity="0.6">
+        <path d="M40,500 L60,420 L80,500 Z M70,510 L90,430 L110,510 Z M50,560 L70,480 L90,560 Z" fill="#0f1812"/>
+        <path d="M480,490 L500,410 L520,490 Z M510,500 L530,420 L550,500 Z" fill="#0f1812"/>
+    </g>
+    <g transform="translate(280,520)">
+        <rect x="0" y="40" width="60" height="50" fill="#5a4128"/>
+        <path d="M-10,40 L30,10 L70,40 Z" fill="#3d2818"/>
+        <rect x="20" y="55" width="20" height="35" fill="#1a0f08"/>
+        <rect x="48" y="50" width="10" height="10" fill="#f4d57a" opacity="0.8"/>
+    </g>
+</svg>

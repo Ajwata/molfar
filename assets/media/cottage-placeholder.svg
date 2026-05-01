@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" preserveAspectRatio="xMidYMid slice">
+    <defs>
+        <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2a3530"/>
+            <stop offset="100%" stop-color="#0f1612"/>
+        </linearGradient>
+        <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#a07a4e"/>
+            <stop offset="100%" stop-color="#5a4128"/>
+        </linearGradient>
+        <linearGradient id="warmlight" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#f4d57a"/>
+            <stop offset="100%" stop-color="#d4a85a"/>
+        </linearGradient>
+    </defs>
+    <rect width="500" height="600" fill="url(#bg2)"/>
+    <g opacity="0.4">
+        <path d="M0,250 L120,150 L220,200 L340,120 L440,180 L500,160 L500,400 L0,400 Z" fill="#1a241f"/>
+    </g>
+    <g transform="translate(80,260)">
+        <path d="M0,180 L170,40 L340,180 L340,340 L0,340 Z" fill="url(#wood)"/>
+        <path d="M-20,180 L170,30 L360,180 L340,180 L170,40 L0,180 Z" fill="#2a1810"/>
+        <rect x="20" y="200" width="80" height="120" fill="#1a0f08"/>
+        <rect x="30" y="210" width="60" height="100" fill="url(#warmlight)" opacity="0.85"/>
+        <line x1="60" y1="210" x2="60" y2="310" stroke="#1a0f08" stroke-width="2"/>
+        <line x1="30" y1="260" x2="90" y2="260" stroke="#1a0f08" stroke-width="2"/>
+        <rect x="130" y="220" width="80" height="120" fill="#3d2818"/>
+        <rect x="240" y="200" width="80" height="120" fill="#1a0f08"/>
+        <rect x="250" y="210" width="60" height="100" fill="url(#warmlight)" opacity="0.7"/>
+        <line x1="280" y1="210" x2="280" y2="310" stroke="#1a0f08" stroke-width="2"/>
+        <line x1="250" y1="260" x2="310" y2="260" stroke="#1a0f08" stroke-width="2"/>
+        <rect x="-30" y="340" width="400" height="20" fill="#3d2818"/>
+        <ellipse cx="380" cy="360" rx="30" ry="8" fill="#5a8a7a" opacity="0.5"/>
+    </g>
+    <g opacity="0.6">
+        <path d="M30,500 Q50,470 30,440 Q10,470 30,500 M40,520 Q60,490 40,460 Q20,490 40,520" fill="#1a241f"/>
+        <path d="M450,510 Q470,480 450,450 Q430,480 450,510" fill="#1a241f"/>
+    </g>
+    <g opacity="0.3">
+        <circle cx="100" cy="80" r="2" fill="#f4e4b8"/>
+        <circle cx="180" cy="120" r="1.5" fill="#f4e4b8"/>
+        <circle cx="340" cy="60" r="2" fill="#f4e4b8"/>
+        <circle cx="420" cy="100" r="1.5" fill="#f4e4b8"/>
+    </g>
+</svg>

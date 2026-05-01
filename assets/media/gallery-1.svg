@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid slice">
+    <defs>
+        <linearGradient id="g1bg" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#1a2a22"/>
+            <stop offset="100%" stop-color="#0a1410"/>
+        </linearGradient>
+    </defs>
+    <rect width="600" height="800" fill="url(#g1bg)"/>
+    <g opacity="0.5">
+        <path d="M0,500 L100,380 L200,450 L350,330 L500,420 L600,380 L600,800 L0,800 Z" fill="#1f3025"/>
+    </g>
+    <g transform="translate(150,350)">
+        <path d="M0,200 L150,80 L300,200 L300,350 L0,350 Z" fill="#8a6f44"/>
+        <path d="M-15,200 L150,70 L315,200 L300,200 L150,80 L0,200 Z" fill="#3d2818"/>
+        <rect x="120" y="240" width="60" height="110" fill="#1a0f08"/>
+        <rect x="40" y="230" width="50" height="50" fill="#f4d57a" opacity="0.85"/>
+        <rect x="210" y="230" width="50" height="50" fill="#f4d57a" opacity="0.85"/>
+    </g>
+    <g opacity="0.4">
+        <path d="M50,650 L60,600 L70,650 Z M75,655 L85,605 L95,655 Z" fill="#0a1410"/>
+        <path d="M510,640 L520,590 L530,640 Z" fill="#0a1410"/>
+    </g>
+</svg>

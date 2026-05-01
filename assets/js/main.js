@@ -342,28 +342,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateCalc();
 
-    // === FORM ===
-    const form = document.getElementById('ctaForm');
-    form?.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const btn = form.querySelector('button[type="submit"]');
-        const original = btn.innerHTML;
-
-        btn.innerHTML = '<span>Дякуємо! Ми зв\'яжемося з вами</span>';
-        btn.style.background = '#5a8a6a';
-        btn.style.borderColor = '#5a8a6a';
-        btn.style.color = '#fff';
-
-        form.querySelectorAll('input').forEach(i => i.value = '');
-
-        setTimeout(() => {
-            btn.innerHTML = original;
-            btn.style.background = '';
-            btn.style.borderColor = '';
-            btn.style.color = '';
-        }, 4000);
-    });
-
     // === FAQ — close others when opening one ===
     const faqItems = document.querySelectorAll('.faq-item');
     faqItems.forEach(item => {

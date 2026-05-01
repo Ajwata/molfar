@@ -47,11 +47,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === HEADER scrolled state ===
     const header = document.getElementById('header');
+    const backToTop = document.getElementById('backToTop');
     let lastScroll = 0;
     lenis.on('scroll', ({ scroll }) => {
         if (scroll > 60) header.classList.add('scrolled');
         else header.classList.remove('scrolled');
+        if (backToTop) backToTop.classList.toggle('visible', scroll > 600);
         lastScroll = scroll;
+    });
+
+    backToTop?.addEventListener('click', () => {
+        lenis.scrollTo(0, { duration: 1.2 });
     });
 
     // === BURGER MENU ===

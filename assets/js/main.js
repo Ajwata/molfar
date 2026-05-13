@@ -4,6 +4,25 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
+    // === FACEBOOK PIXEL ===
+    if (window.fbq) {
+        // Track investment opportunity view
+        fbq('track', 'ViewContent', {
+            content_name: 'MOLFAR Investment Opportunity',
+            value: 5.7,
+            currency: 'UAH'
+        });
+
+        // Track Lead on contact interactions
+        document.querySelectorAll('[href="#contacts"], .contact-item, .contacts-tg-btn, .footer-tg-btn').forEach(el => {
+            el.addEventListener('click', () => {
+                fbq('track', 'Lead', {
+                    content_name: 'MOLFAR Investment Inquiry'
+                });
+            });
+        });
+    }
+
     // === IMAGES fade-in on load ===
     document.querySelectorAll('img.media-img, .gallery-item img').forEach(img => {
         if (img.complete && img.naturalHeight !== 0) {
